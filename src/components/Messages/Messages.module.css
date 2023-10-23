@@ -1,0 +1,14 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.friendsList {
+    width: 23%;
+    border-right: 2px solid #328275;
+}
+
+.dialogs {
+    width: 60%;
+    margin: 0 auto;
+}

@@ -6,31 +6,18 @@ const Messages = () => {
             DIALOGS
         </h2>
         <div className={messages.content}>
-            <ul className={messages.friendsList}>
-                <li to='#'>Andrew</li>
-                <li to='#'>Dmitry</li>
-                <li to='#'>Sasha</li>
-                <li to='#'>Sveta</li>
-                <li to='#'>Valera</li>
-                <li to='#'>Viktor</li>
-            </ul>
+            <div className={messages.friendsList}>
+                <div  className={messages.item}>Andrew</div>
+                <div  className={messages.item}>Dmitry</div>
+                <div  className={messages.item}>Sasha</div>
+                <div  className={messages.item}>Sveta</div>
+                <div  className={messages.item}>Valera</div>
+                <div  className={messages.item}>Viktor</div>                                                                                                                                                                                              
+            </div>
             <div className={messages.dialogs}>
-                <div className='myMessage'>
-                    <figure className=''>
-                        <figcaption></figcaption>
-                    </figure>
-                    <p className="text">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, doloremque!
-                    </p>
-                </div>
-                <div className='friendMessage'>
-                    <figure className=''>
-                        <figcaption></figcaption>
-                    </figure>
-                    <p className="text">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat corrupti ducimus omnis, ut neque quidem.
-                    </p>
-                </div>
+                <div className={messages.message}>Lorem ipsum dolor sit.</div>
+                <div className={messages.message}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, reiciendis?</div>
+                <div className={messages.message}>Lorem ipsum dolor sit amet consectetur adipisicing.</div>
             </div>
         </div>
 

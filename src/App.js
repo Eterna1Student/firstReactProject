@@ -7,7 +7,7 @@ import Messages from './components/Messages/Messages';
 import News from './components/News/News';
 import Music from './components/Music/Music';
 import Settings from './components/Settings/Settings';
-import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom'; 
 
 
 const App = () => {

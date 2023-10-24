@@ -14,7 +14,13 @@
     height: 65vh;
 }
 
-.link {
+.item a {
     color: #ABCD9E;
     cursor: pointer;
+    text-decoration: none;    
+}
+
+.item a.activeLink {
+    text-decoration: underline;
+    color: red;
 }

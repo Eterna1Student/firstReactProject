@@ -8,8 +8,16 @@
 }
 
 .item {
-    color: #328275;
     padding: 7px 0 7px 30px;
+}
+
+.item a {
+    color: #328275;
+}
+
+.item:first-child {
+    text-decoration: underline;
+    color: #328275
 }
 
 .dialogs {

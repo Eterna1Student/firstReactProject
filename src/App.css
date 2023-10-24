@@ -10,6 +10,10 @@
                          'nav cont';
 }
 
+a {
+    text-decoration: none;
+}
+
 .app-wrapper-content {
     grid-area: cont;
 }

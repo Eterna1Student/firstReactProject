@@ -5,9 +5,18 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import state from './redux/state';
 import {addPost} from './redux/state';
-import { renderEntireTree } from './render';
 
-renderEntireTree()
+addPost('Я перестал понимать что делаю!')
+
+export let renderEntireTree = () => {
+  const root = ReactDOM.createRoot(document.getElementById('root'));
+  root.render(
+    <React.StrictMode>
+      <App appState={state} addPost={addPost}/>
+    </React.StrictMode>
+  );
+}
+
 
 
 // If you want to start measuring performance in your app, pass a function
